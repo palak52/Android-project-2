@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductFragment"
+    android:background="#fff">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:padding="10dp">
+
+           <TextView
+               android:id="@+id/txt1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="20dp"
+               android:fontFamily="@font/baloo"
+               android:text="Invention"
+               android:textColor="#000"
+               android:textSize="40dp" />
+
+           <TextView
+               android:id="@+id/txt2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="-162dp"
+               android:layout_marginTop="20dp"
+               android:layout_toRightOf="@id/txt1"
+               android:fontFamily="@font/baloo"
+               android:text="2020"
+               android:textColor="#FEBD49"
+               android:textSize="40dp" />
+
+           <TextView
+               android:layout_below="@id/txt2"
+               android:layout_centerInParent="true"
+               android:justificationMode="inter_word"
+               android:id="@id/txt3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/baloo"
+               android:textColor="#000"
+               android:text="@string/logic_fourth" />
+
+           <TextView
+               android:layout_below="@id/txt3"
+               android:layout_centerInParent="true"
+               android:id="@id/txt4"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:fontFamily="@font/baloo"
+               android:textColor="#000"
+               android:text="@string/logic_fifth"
+               android:textSize="10sp"
+               android:justificationMode="inter_word"
+               android:padding="15dp"/>
+
+           <TextView
+               android:layout_below="@id/txt4"
+               android:id="@+id/txt5"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/logic_brotherscompany"
+               android:paddingLeft="10dp"
+               android:textColor="#FEBD49"
+               android:textSize="14dp"
+               android:fontFamily="@font/baloo"/>
+
+           <TextView
+               android:layout_below="@id/txt5"
+               android:id="@+id/txt6"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="logicbrothersandcompany@gmail.com"
+               android:textColor="#FEBD49"
+               android:paddingLeft="10dp"
+               android:textSize="10dp"
+               android:fontFamily="@font/baloo"/>
+
+       </RelativeLayout>
+
+   </ScrollView>
+
+</FrameLayout>

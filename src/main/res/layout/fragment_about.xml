@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutFragment"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img1"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/profileone"
+                android:layout_centerHorizontal="true"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:id="@id/txt1"
+                android:layout_below="@id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harshwardhan Patel, co-owner"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:textColor="#FEBD49"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@id/txt2"
+                android:layout_below="@id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share the amazing things customers are saying about your business. Double click, or click Edit Text to make it yours."
+                android:fontFamily="@font/baloo"
+                android:justificationMode="inter_word"
+                android:textSize="17dp"
+                android:textColor="#000"
+                android:gravity="center"
+                />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img2"
+                android:layout_below="@id/txt2"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:src="@drawable/profilesecond"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"
+                app:civ_border_color="#FF000000"/>
+
+            <TextView
+                android:id="@id/txt3"
+                android:layout_below="@id/img2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parth Patel, owner"
+                android:fontFamily="@font/baloo"
+                android:textSize="20dp"
+                android:textColor="#FEBD49"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@id/txt4"
+                android:layout_below="@id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Share the amazing things customers are saying about your business. Double click, or click Edit Text to make it yours."
+                android:fontFamily="@font/baloo"
+                android:textSize="17dp"
+                android:textColor="#000"
+                android:justificationMode="inter_word"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_below="@id/txt4"
+                android:id="@+id/txt5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logic_brotherscompany"
+                android:paddingLeft="10dp"
+                android:textColor="#FEBD49"
+                android:textSize="14dp"
+                android:fontFamily="@font/baloo"/>
+
+            <TextView
+                android:layout_below="@id/txt5"
+                android:id="@+id/txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="logicbrothersandcompany@gmail.com"
+                android:paddingLeft="10dp"
+                android:textColor="#FEBD49"
+                android:textSize="10dp"
+                android:fontFamily="@font/baloo"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

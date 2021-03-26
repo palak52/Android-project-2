@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactFragment"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="CONTACT US"
+            android:textColor="#FEBD49"
+            android:textSize="40dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="-24dp"
+            android:fontFamily="@font/baloo"
+            android:text="REG HEADOFFICE :"
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_below="@id/txt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo"
+            android:text="FF/15 KANKU COMPLEX, NEAR AMRUT PARTY PLOT MODHERA CROSSROAD,MEHSANA,GUJARAT,INDIA"
+            android:textColor="#000"
+            android:justificationMode="inter_word"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"/>
+
+        <TextView
+            android:layout_below="@id/txt3"
+            android:id="@+id/txt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="logicbrothersandcompany@gmail.com"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/baloo"
+            android:paddingTop="19dp"
+            />
+
+        <TextView
+            android:layout_below="@id/txt4"
+            android:id="@+id/txt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91 8238153936"
+            android:textColor="#000"
+            android:paddingLeft="10dp"
+            android:textSize="16dp"
+            android:paddingTop="19dp"
+            android:fontFamily="@font/baloo"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="400dp"
+            android:layout_below="@id/txt5"
+            android:layout_height="300dp"
+            android:src="@drawable/map"/>
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img3"
+            android:layout_marginTop="-31dp"
+            android:text="Email"
+            android:paddingLeft="10dp"
+            android:textColor="#D3000000"
+            android:fontFamily="@font/baloo"/>
+        <EditText
+            android:id="@+id/edt1"
+            android:layout_below="@id/txt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnshape"
+            android:hint="Enter Email"
+            android:padding="5dp"
+            />
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_below="@id/edt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:layout_marginTop="10dp"
+            android:textColor="#D3000000"
+            android:fontFamily="@font/baloo"
+            android:paddingLeft="10dp"/>
+        <EditText
+            android:id="@+id/edt2"
+            android:layout_below="@id/txt7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnshape"
+            android:hint="Enter Subject"
+            android:padding="5dp"/>
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_below="@id/edt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D3000000"
+            android:fontFamily="@font/baloo"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Message"/>
+        <EditText
+            android:id="@+id/edt3"
+            android:layout_below="@id/txt8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/btnshape"
+            android:hint="Enter Message"
+            android:padding="5dp"
+            android:textAlignment="viewStart"
+            android:gravity="start" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_below="@id/edt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Submit Message"
+            android:background="@drawable/circle"/>
+
+        <TextView
+            android:layout_below="@id/submit"
+            android:id="@+id/txt9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/logic_brotherscompany"
+            android:paddingLeft="10dp"
+            android:textColor="#FEBD49"
+            android:textSize="14dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/baloo"/>
+
+        <TextView
+            android:layout_below="@id/txt9"
+            android:id="@+id/txt10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="logicbrothersandcompany@gmail.com"
+            android:textColor="#FEBD49"
+            android:paddingLeft="10dp"
+            android:textSize="10dp"
+            android:fontFamily="@font/baloo"/>
+
+    </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

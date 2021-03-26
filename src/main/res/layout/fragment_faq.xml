@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FaqFragment"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HELP DESK"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:fontFamily="@font/baloo"
+                android:textSize="45dp"
+                android:textColor="#FEBD49"/>
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_below="@id/txt1"
+                android:layout_centerHorizontal="true"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/warrenty"/>
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_below="@id/img6"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:padding="10dp"
+                android:src="@drawable/firsthelp"/>
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img7"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-187dp"
+                android:layout_toRightOf="@id/img7"
+                android:fontFamily="@font/baloo"
+                android:text="DO YOU ACCEPT RETURNS?"
+                android:textColor="#FEBD49"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:justificationMode="inter_word"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt3"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@id/img7"
+                android:text="Yes, absolutely we accept returns we have a money-back warranty for 30 days on LOGIC BITMAN device from the date of purchase and a ONE YEAR manufacturing warranty. you can contact directly to the company helpline number given below the website in the yellow section or you can fill out the contact form along with your massage for return of the product."
+                android:textSize="10dp"
+                android:fontFamily="@font/baloo"
+                android:textColor="#000"/>
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_below="@id/txt4"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_alignRight="@id/txt4"
+                android:src="@drawable/secondhelp"/>
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-174dp"
+                android:layout_marginRight="9dp"
+                android:layout_toLeftOf="@id/img3"
+                android:fontFamily="@font/baloo"
+                android:text="WHAT’S THE MINIMUM ORDER AMOUNT?"
+                android:textColor="#FEBD49"
+                android:textSize="16dp" />
+            <TextView
+                android:id="@+id/txt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt6"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo"
+                android:text="If you make an online order or retail order via our dealer minimum quantity is just only one piece. we have nationwide free delivery and pickup services to your doorstep just call on the helpline and you will get all the guidelines made for your best service."
+                android:layout_toLeftOf="@id/img3"
+                android:justificationMode="inter_word"
+                android:textColor="#000"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/txt8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txt7"
+                android:text="DO YOU PROVIDE AFTER-SALES SERVICE?"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo"
+                android:textColor="#FEBD49"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/txt9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txt8"
+                android:text="Yes, we have our 24*7 service support for our consumers if you face any problem-related product after installation you can directly make a service call at our given helpline given below. our ServiceDesk will always serve you the best service in 48 hours and the technician will reach out to you at your doorstep."
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/baloo"
+                android:textColor="#000"
+                android:textSize="10dp" />
+
+            <TextView
+                android:layout_below="@id/txt9"
+                android:id="@+id/txt10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="@string/logic_brotherscompany"
+                android:paddingLeft="10dp"
+                android:textColor="#FEBD49"
+                android:textSize="14dp"
+                android:fontFamily="@font/baloo"/>
+
+            <TextView
+                android:layout_below="@id/txt10"
+                android:id="@+id/txt11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="logicbrothersandcompany@gmail.com"
+                android:paddingLeft="10dp"
+                android:textColor="#FEBD49"
+                android:textSize="10dp"
+                android:fontFamily="@font/baloo"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

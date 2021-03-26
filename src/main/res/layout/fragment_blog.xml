@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlogFragment"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Posts"
+                android:textSize="18dp"
+                android:fontFamily="@font/baloo"/>
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_below="@id/txt1"
+                android:layout_marginTop="-71dp"
+                android:src="@drawable/blogone" />
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:layout_below="@id/img4"
+                android:layout_marginTop="-79dp"
+                android:src="@drawable/blogtwo" />
+
+            <TextView
+                android:layout_below="@id/img5"
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/logic_brotherscompany"
+                android:paddingLeft="10dp"
+                android:textColor="#FEBD49"
+                android:textSize="14dp"
+                android:fontFamily="@font/baloo"/>
+
+            <TextView
+                android:layout_below="@id/txt2"
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="logicbrothersandcompany@gmail.com"
+                android:textColor="#FEBD49"
+                android:paddingLeft="10dp"
+                android:textSize="10dp"
+                android:fontFamily="@font/baloo"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

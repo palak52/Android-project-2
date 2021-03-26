@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment"
+    android:background="#fff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="10dp">
+
+           <TextView
+               android:id="@+id/txt1"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="INNOVATION NEVER COMPETE'S"
+               android:layout_marginTop="20dp"
+               android:gravity="center"
+               android:fontFamily="@font/baloo"
+               android:textSize="26dp"
+               android:textColor="#FEBD49"/>
+
+           <TextView
+               android:layout_below="@id/txt1"
+               android:id="@+id/txt2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:justificationMode="inter_word"
+               android:text="@string/logic_string_first"
+               android:fontFamily="@font/baloo"
+               android:padding="10dp"
+               android:textColor="#000">
+           </TextView>
+
+
+           <ImageView
+               android:id="@+id/img"
+               android:layout_below="@id/txt2"
+               android:layout_width="200dp"
+               android:layout_height="200dp"
+               android:padding="10dp"
+               android:src="@drawable/logicfirstimgpage"/>
+
+           <TextView
+               android:id="@+id/txt3"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/img"
+               android:layout_centerInParent="true"
+               android:layout_marginLeft="10dp"
+               android:layout_marginTop="-187dp"
+               android:layout_toRightOf="@id/img"
+               android:fontFamily="@font/baloo"
+               android:text="BITMAN"
+               android:textColor="#1976D2"
+               android:textSize="16dp" />
+
+           <TextView
+               android:id="@+id/txt4"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txt3"
+               android:layout_marginLeft="10dp"
+               android:layout_toRightOf="@id/img"
+               android:text="WORLD'S FIRST SENSORLESS WATER LEVEL CONTROLLER"
+               android:textSize="14dp"
+               android:fontFamily="@font/baloo"
+               android:textColor="#000"/>
+
+           <TextView
+               android:id="@+id/txt5"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txt4"
+               android:layout_toRightOf="@id/img"
+               android:layout_marginLeft="10dp"
+               android:text="Innovation never competes it has the ability to change the world here is the new invention of 2020 for you by the logic brothers in the Indian markets just take a tour and understand what this innovation made for."
+               android:textSize="10dp"
+               android:fontFamily="@font/baloo"
+               android:justificationMode="inter_word"
+               android:textColor="#000"/>
+
+           <ImageView
+               android:id="@+id/img2"
+               android:layout_below="@id/txt5"
+               android:layout_width="150dp"
+               android:layout_height="200dp"
+               android:layout_alignRight="@id/txt5"
+               android:src="@drawable/logicsecondpagefirst"/>
+
+
+           <TextView
+               android:id="@+id/txt6"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/img2"
+               android:layout_marginTop="-186dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_toLeftOf="@id/img2"
+               android:text="INNOVATION"
+               android:textColor="#388E3C"
+               android:textSize="16dp"/>
+
+           <TextView
+               android:id="@+id/txt7"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txt6"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               android:fontFamily="@font/baloo"
+               android:text="New Invention"
+               android:layout_toLeftOf="@id/img2"
+               android:textColor="#000"
+               android:textSize="14dp" />
+           <TextView
+               android:id="@+id/txt8"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/txt7"
+               android:text="@string/logic_second"
+               android:textSize="10dp"
+               android:layout_toLeftOf="@id/img2"
+               android:layout_marginRight="10dp"
+               android:layout_marginLeft="10dp"
+               android:textColor="#000"
+               android:justificationMode="inter_word"
+               android:fontFamily="@font/baloo"/>
+
+           <TextView
+               android:id="@+id/txt9"
+               android:layout_below="@id/txt8"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="LOGIC"
+               android:textSize="37dp"
+               android:textColor="#FEBD49"
+               android:fontFamily="@font/baloo"
+               android:layout_centerHorizontal="true"/>
+
+           <TextView
+               android:id="@+id/txt10"
+               android:layout_below="@id/txt9"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Carefully Crafted"
+               android:textSize="14dp"
+               android:textColor="#050300"
+               android:fontFamily="@font/baloo"
+               android:layout_marginLeft="10dp"/>
+
+           <TextView
+               android:id="@+id/txt11"
+               android:layout_below="@id/txt10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/logic_stsmt"
+               android:textSize="10dp"
+               android:textColor="#050300"
+               android:fontFamily="@font/baloo"
+               android:layout_marginLeft="10dp"/>
+
+           <TextView
+               android:layout_below="@id/txt11"
+               android:id="@+id/txt12"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/logic_brotherscompany"
+               android:paddingLeft="10dp"
+               android:textColor="#FEBD49"
+               android:textSize="14dp"
+               android:fontFamily="@font/baloo"/>
+
+           <TextView
+               android:layout_below="@id/txt12"
+               android:id="@+id/txt13"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="logicbrothersandcompany@gmail.com"
+               android:paddingLeft="10dp"
+               android:textColor="#FEBD49"
+               android:textSize="10dp"
+               android:fontFamily="@font/baloo"/>
+       </RelativeLayout>
+    </ScrollView>
+</FrameLayout>

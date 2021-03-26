@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Home"
+            android:icon="@drawable/home_icon"
+            android:id="@+id/home"/>
+
+        <item
+            android:title="Product"
+            android:icon="@drawable/product_icon"
+            android:id="@+id/product"/>
+
+        <item
+            android:title="Contact"
+            android:icon="@drawable/contact_icon"
+            android:id="@+id/contact"/>
+
+        <item
+            android:title="Blog"
+            android:icon="@drawable/blog_icon"
+            android:id="@+id/blog"/>
+
+        <item
+            android:title="FAQ"
+            android:icon="@drawable/faq_icon"
+            android:id="@+id/faq"/>
+
+        <item
+            android:title="About Us"
+            android:icon="@drawable/about_icon"
+            android:id="@+id/aboutus"/>
+
+        <item
+            android:title="User Manual"
+            android:icon="@drawable/usermanual_icon"
+            android:id="@+id/usermanual"/>
+
+    </group>
+
+</menu>
